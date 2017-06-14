@@ -58,4 +58,5 @@ class AboutValAndVar extends KoanSuite {
     a should be(19)
     history should be("5")
   }
+
 }

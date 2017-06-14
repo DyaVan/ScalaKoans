@@ -23,7 +23,6 @@ class AboutAsserts extends KoanSuite with ShouldMatchers {
     val v2 = 4
     v1 === v2 // === is an assert. It is from ScalaTest, not from the Scala language
   }
-
   koan("sometimes we expect you to fill in the values") {
     assert(2 == 1 + 1)
   }

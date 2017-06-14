@@ -19,5 +19,4 @@ class AboutLiteralBooleans extends KoanSuite with ShouldMatchers {
     e should be(false)
     f should be(false)
   }
-
 }
